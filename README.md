@@ -1,0 +1,3 @@
+This is the core code repository for paper "Impact of Fine-Grained Learning Rate Configuration on the Performance of Medical Image Segmentation Models".
+
+File 1 contains the hierarchical example using UNet as an example and the training process; File 2 is the calculation process of the result of a single training. These two files can be used alternately according to the pseudo-code of the algorithm in this paper to obtain the final hierarchical learning rate configuration of the UNet. Files 3-9 are the log files obtained by training the UNet network using File 1, and File 2 uses these files to obtain the final learning rate configuration of this layer.
